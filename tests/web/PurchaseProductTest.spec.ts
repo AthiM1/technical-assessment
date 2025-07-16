@@ -1,7 +1,7 @@
 import { test } from '@playwright/test';
-import { LoginPage } from '../pages/LoginPage';
-import { ProductsPage } from '../pages/ ProductsPage';
-import { CartPage } from '../pages/  CartPage';
+import { LoginPage } from '../web/pages/LoginPage';
+import { ProductsPage } from '../web/pages/ ProductsPage';
+import { CartPage } from '../web/pages/  CartPage';
 
 test('End-to-End with POM', async ({ page }) => {
   const loginPage = new LoginPage(page);
