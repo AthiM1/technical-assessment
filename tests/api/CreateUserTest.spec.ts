@@ -1,6 +1,6 @@
 import { test, request, expect } from '@playwright/test';
 
-test('Login - Retrieve JWT token', async () => {
+test('Create a new user', async () => {
     const context = await request.newContext({
         extraHTTPHeaders: {
             'x-api-key': 'reqres-free-v1',
@@ -8,15 +8,16 @@ test('Login - Retrieve JWT token', async () => {
         },
     });
 
-    const res = await context.post('https://reqres.in/api/login', {
+    const res = await context.post('https://reqres.in/api/users', {
         data: {
-            email: 'eve.holt@reqres.in',
-            password: 'cityslicka',
+            name: 'Athi',
+            job: 'Automation Engineer',
         },
     });
 
     expect(res.ok()).toBeTruthy();
     const body = await res.json();
-    console.log('JWT Token:', body.token);
-    expect(body.token).toBeDefined();
+    console.log('Created User:', body);
+    expect(body.name).toBe('Athi');
+    expect(body.id).toBeDefined();
 });
