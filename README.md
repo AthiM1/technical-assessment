@@ -1,4 +1,6 @@
 ## Playwright technical-assessment
+This repository consists of a demonstration of web automation and API automation:
+
 
 ## 🚀 Setup & Execution Instructions
 
@@ -9,7 +11,7 @@
 
 ### 📁 Clone the Repository
 
-git clone https://github.com/<your-username>/technical-assessment.git
+git clone https://github.com/<AthiM1/technical-assessment.git
 cd technical-assessment
 
 
@@ -19,8 +21,6 @@ npm install
 
 ### 🔐 Configure Environment Variables
 Copy the .env.example file to .env:
-
-
 cp .env.example .env
 Edit .env with your PostgreSQL credentials:
 
