@@ -22,7 +22,8 @@ cd technical-assessment`
 
 Install Playwright:
 
-`npm install -D @playwright/test`
+`npm init playwright@latest
+`
 
 Then install the required browsers:
 
