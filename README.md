@@ -1,26 +1,25 @@
-## Playwright technical-assessment
+## Playwright technical assessment
 This repository consists of a demonstration of web automation and API automation:
-
+(JavaScript + Playwright)
 
 ## 🚀 Setup & Execution Instructions
 
 ### 🔧 Prerequisites
 
 - Node.js v14+
-- PostgreSQL running locally
+- PostgreSQL is running locally
 
 ### 📁 Clone the Repository
 
 git clone https://github.com/<AthiM1/technical-assessment.git
 cd technical-assessment
 
-
 ### 🔧 Install Dependencies
 
 npm install
 
 ### 🔐 Configure Environment Variables
-Copy the .env.example file to .env:
+Copy the .env example file to .env:
 cp .env.example .env
 Edit .env with your PostgreSQL credentials:
 
