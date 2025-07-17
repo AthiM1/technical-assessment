@@ -15,8 +15,10 @@ node -v
 
 ### 📁 Clone the Repository
 
-`git clone https://github.com/<AthiM1/technical-assessment.git
-cd technical-assessment`
+```
+git clone https://github.com/<AthiM1/technical-assessment.git
+cd technical-assessment
+```
 
 ### 🔧 Install Dependencies
 
