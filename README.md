@@ -7,6 +7,7 @@ This repository consists of a demonstration of web automation and API automation
 
 ### 🔧 Prerequisites
 
+` node -v`
 - Node.js v14+
 - PostgreSQL is running locally
 
@@ -18,6 +19,14 @@ cd technical-assessment`
 ### 🔧 Install Dependencies
 
 `npm install`
+
+Install Playwright:
+
+`npm install -D @playwright/test`
+
+Then install the required browsers:
+
+`npx playwright install`
 
 ### 🔐 Configure Environment Variables
 
