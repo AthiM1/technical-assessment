@@ -1,4 +1,5 @@
 ## Playwright technical assessment
+
 This repository consists of a demonstration of web automation and API automation:
 (JavaScript + Playwright)
 
@@ -11,18 +12,18 @@ This repository consists of a demonstration of web automation and API automation
 
 ### 📁 Clone the Repository
 
-git clone https://github.com/<AthiM1/technical-assessment.git
-cd technical-assessment
+`git clone https://github.com/<AthiM1/technical-assessment.git
+cd technical-assessment`
 
 ### 🔧 Install Dependencies
 
-npm install
+`npm install`
 
 ### 🔐 Configure Environment Variables
+
 Copy the .env example file to .env:
 cp .env.example .env
 Edit .env with your PostgreSQL credentials:
-
 
 PGHOST=localhost
 PGUSER=your_user
@@ -33,13 +34,17 @@ PGPORT=5432
 ### ▶️ Running Tests
 
 ### 🖥UI Automation (Playwright)
-npx playwright test
+
+`npx playwright test`
+
 To run on all browsers (Chromium, Firefox, WebKit):
-npx playwright test web/ --project=chromium --project=firefox --project=webkit
+
+`npx playwright test web/ --project=chromium --project=firefox --project=webkit`
 
 ### 📡 API Tests (Playwright Request API)
 
-npx playwright test api/
+`npx playwright test api/`
 
 ### 📄 Evidence of Execution
-npx playwright show-report
+
+`npx playwright show-report`
